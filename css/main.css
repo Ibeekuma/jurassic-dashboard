@@ -3,3 +3,70 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+li {
+  list-style: none;
+  display: inline-block;
+  text-shadow: 0 2px 10px #6feff9;
+}
+
+menu {
+  padding-left: 0;
+}
+
+.absolute {
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+button {
+  color: #ffd31d;
+}
+
+button:hover {
+  color: #f62e52;
+}
+
+.icon {
+  color: #6feff9;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+.dashboard-controls-top {
+  border-top: 1px dotted #6feff9;
+}
+
+.dashboard-map {
+  border-right: 1px dotted #6feff9;
+}
+
+.stats {
+  opacity: 0;
+  animation: grow 2s linear;
+}
+
+h2 {
+  border: 1px dotted #6feff9;
+  border-top: 0;
+  text-shadow: 0 2px 20px #6feff9;
+}
+
+.embed-item {
+  border-top: 1px dotted #6feff9;
+}
+
+@keyframes grow {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
